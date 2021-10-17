@@ -11,7 +11,8 @@ import { Redirect, Route, Switch } from "react-router";
 function App() {
   return (
     <>
-      <Navbar/>
+    <div className="background">
+      <Navbar/> 
       <Switch>
         {/* <Route exact path="/" component={WalartPediatric} /> */}
         <Route exact path="/Pediatric" component={WalartPediatric} />
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/SUR" component={WalartSUR} />
         <Redirect to="/Pediatric" />
       </Switch>
+      </div>
     </>
   );
 }

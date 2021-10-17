@@ -7,45 +7,51 @@ const WalartPediatric = () => {
   return (
     <div style={{ height: "100%", width: "100%", objectFit: "scale-down" }}>
       {/* style={{ height: "100%", width: "100%", objectFit: "scale-down" }} */}
-      <Carousel prevLabel={""} nextLabel={""} interval={null} wrap={false}>
+      <Carousel
+        prevLabel={""}
+        nextLabel={""}
+        interval={null}
+        wrap={false}
+        touch={false}
+      >
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src="images/IMG-20211001-WA0028.jpg"
+            className="carousal-image"
+            src="images/Walart Pharmaceuticals VISUAL AID coverpage.jpg"
             alt="Walart Pediatric"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousal-image"
             src="images/Pediatrique/Walart Pharmaceuticals VISUAL AID 01102021 2.jpg"
             alt="Walart Pediatric"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousal-image"
             src="images/Pediatrique/Walart Pharmaceuticals VISUAL AID 01102021 3.jpg"
             alt="Walart Pediatric"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousal-image"
             src="images/Pediatrique/Walart Pharmaceuticals VISUAL AID 01102021 4.jpg"
             alt="Walart Pediatric"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousal-image"
             src="images/Pediatrique/Walart Pharmaceuticals VISUAL AID 01102021 5.jpg"
             alt="Walart Pediatric"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carousal-image"
             src="images/Pediatrique/Walart Pharmaceuticals VISUAL AID 01102021 6.jpg"
             alt="Walart Pediatric"
           />
