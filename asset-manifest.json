@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Walart/static/css/main.eb55eeb3.chunk.css",
-    "main.js": "/Walart/static/js/main.1287f6a2.chunk.js",
-    "main.js.map": "/Walart/static/js/main.1287f6a2.chunk.js.map",
+    "main.js": "/Walart/static/js/main.85e03a31.chunk.js",
+    "main.js.map": "/Walart/static/js/main.85e03a31.chunk.js.map",
     "runtime-main.js": "/Walart/static/js/runtime-main.dd5b346c.js",
     "runtime-main.js.map": "/Walart/static/js/runtime-main.dd5b346c.js.map",
     "static/css/2.67d44514.chunk.css": "/Walart/static/css/2.67d44514.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.67d44514.chunk.css",
     "static/js/2.7e59c01f.chunk.js",
     "static/css/main.eb55eeb3.chunk.css",
-    "static/js/main.1287f6a2.chunk.js"
+    "static/js/main.85e03a31.chunk.js"
   ]
 }
