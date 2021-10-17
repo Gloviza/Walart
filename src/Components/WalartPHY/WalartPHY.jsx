@@ -5,7 +5,10 @@ import "./WalartPHY.css";
 const WalartPHY = () => {
   return (
     <>
-      <div style={{ height: "100%", width: "100%", objectFit: "scale-down" }}>
+      <div
+        id="PHY"
+        style={{ height: "100%", width: "100%", objectFit: "scale-down" }}
+      >
         {/* style={{ height: "100%", width: "100%", objectFit: "scale-down" }} */}
         <Carousel
           prevLabel={""}

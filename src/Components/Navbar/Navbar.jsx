@@ -1,7 +1,8 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
+// import { Link } from "react-router-dom";
 import "./Navbar.css";
-// import { NavHashLink as Link } from "react-router-hash-link";
+import { NavHashLink as Link } from "react-router-hash-link";
 const Navbar = () => {
   // showSettings (event) {
   //   event.preventDefault();
@@ -9,18 +10,18 @@ const Navbar = () => {
 
   return (
     <Menu width={"auto"}>
-      <a id="about" className="menu-item" href="/Pediatric">
+      <Link className="menu-item" to="/Pediatric">
         Pediatric
-      </a>
-      <a id="contact" className="menu-item" href="/GYN">
+      </Link>
+      <Link className="menu-item" to="/GYN">
         GYN
-      </a>
-      <a id="contact" className="menu-item" href="/PHY">
+      </Link>
+      <Link className="menu-item" to="/PHY">
         PHY
-      </a>
-      <a id="contact" className="menu-item" href="/SUR">
+      </Link>
+      <Link className="menu-item" to="/SUR">
         SUR
-      </a>
+      </Link>
 
       {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
     </Menu>

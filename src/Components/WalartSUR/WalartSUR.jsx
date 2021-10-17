@@ -5,7 +5,10 @@ import "./WalartSUR.css";
 const WalartSUR = () => {
   return (
     <>
-      <div style={{ height: "100%", width: "100%", objectFit: "scale-down" }}>
+      <div
+        id="SUR"
+        style={{ height: "100%", width: "100%", objectFit: "scale-down" }}
+      >
         {/* style={{ height: "100%", width: "100%", objectFit: "scale-down" }} */}
         <Carousel
           prevLabel={""}

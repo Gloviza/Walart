@@ -5,7 +5,10 @@ import "./WalartPediatric.css";
 
 const WalartPediatric = () => {
   return (
-    <div style={{ height: "100%", width: "100%", objectFit: "scale-down" }}>
+    <div
+      id="Pediatric"
+      style={{ height: "100%", width: "100%", objectFit: "scale-down" }}
+    >
       {/* style={{ height: "100%", width: "100%", objectFit: "scale-down" }} */}
       <Carousel
         prevLabel={""}

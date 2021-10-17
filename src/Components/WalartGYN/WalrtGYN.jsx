@@ -6,7 +6,7 @@ import "./WalartGYN.css";
 const WalartGYN = () => {
   return (
     <>
-      <div className="background">
+      <div id="GYN" className="background">
         <div>
           {/* style={{ display: "block", height: "100%", width: "100%" }} */}
           <Carousel
